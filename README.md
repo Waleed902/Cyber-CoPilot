@@ -23,6 +23,7 @@ An AI-powered, multi-agent offensive security framework that automates penetrati
   - [Target Profiles](#target-profiles)
   - [Failure Recovery Engine](#failure-recovery-engine)
   - [Report Generation](#report-generation)
+- [Screenshots](#screenshots)
 - [Quick Start](#quick-start)
 - [System Architecture](#system-architecture)
   - [High-Level Architecture](#high-level-architecture)
@@ -51,6 +52,20 @@ The platform is built around four pillars:
 | **Attack Execution Engine** | An Agentic Runner implementing the ReAct (Reasoning + Acting) loop: reason about the current state, select and invoke a tool, process results, repeat — until the objective is complete. |
 | **Target Intelligence Store** | A persistent per-target profile system that accumulates ports, subdomains, credentials, vulnerabilities, and DNS data across sessions — feeding every agent with prior-collected intelligence before any scan runs. |
 | **Structured Reporting Pipeline** | AI-driven markdown and PDF reporting with charts, executive summaries, MITRE alignment, and client-ready formatting. |
+
+---
+
+## Screenshots
+
+| Operator cockpit | Tool execution trace |
+|------------------|----------------------|
+| ![Cyber-CoPilot quick commands dashboard](assets/screenshots/quick-commands-dashboard.png) | ![TCP session tool execution](assets/screenshots/tcp-session-tool-execution.png) |
+
+| CTF workflow | Target summary |
+|--------------|----------------|
+| ![CTF solution recording with sensitive flag redacted](assets/screenshots/ctf-solution-redacted.png) | ![Compact target summary with access artifacts redacted](assets/screenshots/connected-summary-redacted.png) |
+
+Sensitive CTF flags, access URLs, and harvested credentials are redacted in public screenshots.
 
 ---
 
