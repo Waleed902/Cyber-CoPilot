@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local assistant/operator state
+.*/
+.cache/
+.claude/
+.codex/
+.context.db
+.knowledge_db/
+.memory/
+.memory_backup_*/
+backups/
+.scope.json
+
+# Vendored external tools (tracked separately)
+ligolo-ng/
+cloudflair/
+
+# Runtime output and target evidence
+data/
+docs/
+FYP-Report/
+scripts/
+logs/
+reports/
+sessions/
+targets/
+evidence/
+
+# Secrets / API keys
+.env*
+!.env.example
+secrets.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+
+# Local databases and generated data
+*.db
+*.sqlite
+*.sqlite3
+
+# Archives and generated report binaries
+*.zip
